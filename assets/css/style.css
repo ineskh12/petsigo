@@ -385,10 +385,9 @@ h1, h2, h3, h4, h5, h6 {
 #hero .container, #hero .container-fluid {
   padding-top: 84px;
 }
-#hero h1 {
-  margin: 0;
-  font-size: 42px;
-  width: 663px;
+#hero h1 { margin: 10px 0 0 0;
+  font-size: 40px;
+ 
   font-weight: bold;
   line-height: 64px;
   color: #6A4C9A;
@@ -443,6 +442,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   #hero h1 {
+    
     font-size: 26px;
     line-height: 36px;
   }
